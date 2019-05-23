@@ -1,0 +1,19 @@
+On the STM32F4 you first need to enable the FPU - otherwise the CPU will jump into the HardFault_Handler or BusFault_Handler (I'm not shure which one).
+
+You can do it in C/C++ anywhere before you use floating point instructions (maybe at the beginning of main()?). Assuming you use the CMSIS library and have the core_m4.h included (maybe through stm32f4xx.h):
+
+void cortexm4f_enable_fpu() {
+    /* set CP10 and CP11 Full Access */
+    SCB->CPACR |= ((3UL << 10*2)|(3UL << 11*2));
+}
+The alternative is assembler code in the startup file:
+
+/*enable fpu begin*/
+ldr     r0, =0xe000ed88           /*; enable cp10,cp11 */
+ldr     r1,[r0]
+ldr     r2, =0xf00000
+orr     r1,r1,r2
+
+8197817484
+str     r1,[r0]
+/*enable fpu end*/

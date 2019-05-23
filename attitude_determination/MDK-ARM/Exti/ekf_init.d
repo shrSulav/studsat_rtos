@@ -1,0 +1,12 @@
+.\exti\ekf_init.o: ..\user\source\ekf_init.c
+.\exti\ekf_init.o: ..\..\..\..\Libraries\CMSIS\Include\arm_math.h
+.\exti\ekf_init.o: ..\..\..\..\Libraries\CMSIS\Include\core_cm4.h
+.\exti\ekf_init.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\exti\ekf_init.o: ..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\exti\ekf_init.o: ..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\exti\ekf_init.o: ..\..\..\..\Libraries\CMSIS\Include\core_cm4_simd.h
+.\exti\ekf_init.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\exti\ekf_init.o: ..\math.h
+.\exti\ekf_init.o: ..\user\inc\ekf_var.h
+.\exti\ekf_init.o: ..\user\inc\struct_def.h
+.\exti\ekf_init.o: ..\stdint.h

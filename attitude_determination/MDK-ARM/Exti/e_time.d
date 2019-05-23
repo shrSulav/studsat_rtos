@@ -1,0 +1,12 @@
+.\exti\e_time.o: ..\user\source\e_time.c
+.\exti\e_time.o: ..\user\inc\e_time.h
+.\exti\e_time.o: ..\stdint.h
+.\exti\e_time.o: ..\user\inc\struct_def.h
+.\exti\e_time.o: ..\..\..\..\Libraries\CMSIS\Include\arm_math.h
+.\exti\e_time.o: ..\..\..\..\Libraries\CMSIS\Include\core_cm4.h
+.\exti\e_time.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\exti\e_time.o: ..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\exti\e_time.o: ..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\exti\e_time.o: ..\..\..\..\Libraries\CMSIS\Include\core_cm4_simd.h
+.\exti\e_time.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\exti\e_time.o: ..\math.h

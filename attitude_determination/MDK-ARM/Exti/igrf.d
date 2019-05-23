@@ -1,0 +1,16 @@
+.\exti\igrf.o: ..\user\source\igrf.c
+.\exti\igrf.o: ..\user\inc\igrf.h
+.\exti\igrf.o: ..\math.h
+.\exti\igrf.o: ..\user\inc\ekf_var.h
+.\exti\igrf.o: ..\..\..\..\Libraries\CMSIS\Include\arm_math.h
+.\exti\igrf.o: ..\..\..\..\Libraries\CMSIS\Include\core_cm4.h
+.\exti\igrf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\exti\igrf.o: ..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\exti\igrf.o: ..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\exti\igrf.o: ..\..\..\..\Libraries\CMSIS\Include\core_cm4_simd.h
+.\exti\igrf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\exti\igrf.o: ..\user\inc\struct_def.h
+.\exti\igrf.o: ..\stdint.h
+.\exti\igrf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\exti\igrf.o: ..\user\inc\igrf_data.h
+.\exti\igrf.o: ..\user\inc\e_time.h

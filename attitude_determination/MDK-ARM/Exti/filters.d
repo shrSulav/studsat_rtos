@@ -1,0 +1,15 @@
+.\exti\filters.o: ..\user\source\filters.c
+.\exti\filters.o: ..\user\inc\filters.h
+.\exti\filters.o: ..\..\..\..\Libraries\CMSIS\Include\arm_math.h
+.\exti\filters.o: ..\..\..\..\Libraries\CMSIS\Include\core_cm4.h
+.\exti\filters.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\exti\filters.o: ..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\exti\filters.o: ..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\exti\filters.o: ..\..\..\..\Libraries\CMSIS\Include\core_cm4_simd.h
+.\exti\filters.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\exti\filters.o: ..\math.h
+.\exti\filters.o: ..\user\inc\ekf_var.h
+.\exti\filters.o: ..\user\inc\struct_def.h
+.\exti\filters.o: ..\stdint.h
+.\exti\filters.o: ..\user\inc\ekf_tmp.h
+.\exti\filters.o: ..\user\inc\ekf_init.h

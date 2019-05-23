@@ -1,0 +1,32 @@
+/*
+	//read from the igrf file
+	igrf = fopen("igrfSh_sq_normalised2015.txt","r");
+	if(igrf == NULL)
+	{
+		//
+	}
+	for(i = 0; i<IGRF_ROW; i++)
+	{
+		for(j = 0; j<IGRF_COL; j++)
+		{
+			fscanf(igrf,"%f",&igrfh[i][j]);
+		}
+	}
+
+	fclose(igrf);
+
+	igrf = fopen("igrfSg_sq_normalised2015.txt","r");
+	if(igrf == NULL)
+	{
+		//
+	}
+	for(i = 0; i<IGRF_ROW; i++)
+	{
+		for(j = 0; j<IGRF_COL; j++)
+		{
+			fscanf(igrf,"%f",&igrfg[i][j]);
+		}
+	}
+
+	fclose(igrf);
+*/
