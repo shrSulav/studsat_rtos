@@ -1,0 +1,11 @@
+adcs407\arm_common_tables.o: ..\Drivers\CMSIS\DSP_Lib\Source\CommonTables\arm_common_tables.c
+adcs407\arm_common_tables.o: ../Drivers/CMSIS/Include/arm_math.h
+adcs407\arm_common_tables.o: ../Drivers/CMSIS/Include/core_cm4.h
+adcs407\arm_common_tables.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+adcs407\arm_common_tables.o: ../Drivers/CMSIS/Include/core_cmInstr.h
+adcs407\arm_common_tables.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+adcs407\arm_common_tables.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+adcs407\arm_common_tables.o: ../Drivers/CMSIS/Include/core_cmSimd.h
+adcs407\arm_common_tables.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+adcs407\arm_common_tables.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+adcs407\arm_common_tables.o: ../Drivers/CMSIS/Include/arm_common_tables.h
